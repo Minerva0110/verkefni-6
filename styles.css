@@ -212,9 +212,6 @@ nav ul li {
 /** Meginmál og efni forsíðu **/
 
 main {
-  margin: 0 auto calc(var(--spacing) * 2) auto;
-  padding-left: var(--spacing);
-  padding-right: var(--spacing);
   width: 100%;
 }
 
