@@ -33,21 +33,89 @@
 
       <main id="efni" class="wrapper-main">
         <div class="content">
-          <img src="./myndir/spilabudin.jpg"
-            alt="Inngangur að Spilabúðinni, blámálað hús með stórum gluggum. Í gluggunum eru litríkir hlutir. Fyrir framan húsið er hjól.">
 
-          <p>Spilabúðin selur spil, heldur viðburði og býður upp á skemmtilega stund. Kíktu á okkur á Spilagötu 1.</p>
-          <section>
-            <h3>Spil</h3>
-            <p>Við seljum allskonar spil fyrir allskonar fólk. <a href="./sidur/spil.html">Skoðaðu spila úrvalið</a>.
-            </p>
-          </section>
+          <div class="intro">
+            <img src="./myndir/spilabudin.jpg"
+              alt="Inngangur að Spilabúðinni, blámálað hús með stórum gluggum. Í gluggunum eru litríkir hlutir. Fyrir framan húsið er hjól.">
 
-          <section>
-            <h3>Viðburðir</h3>
-            <p>Við höldum reglulega viðburði. <a href="./sidur/vidburdir.html">Skoðaðu viðburði</a> eða <a
-                href="./sidur/skraning.html">skráðu þig á viðburð</a>.</p>
-          </section>
+            <p>Spilabúðin selur spil, heldur viðburði og býður upp á skemmtilega stund. Kíktu á okkur á Spilagötu 1.</p>
+          </div>
+
+          <div class="cards">
+            <div class="content">
+              <section class="card">
+                <div class="content">
+                  <h3 class="title">Spil</h3>
+                  <div class="text">
+                    <p>Við seljum allskonar spil fyrir allskonar fólk.</p>
+                  </div>
+                  <div class="actions">
+                    <a href="./sidur/spil.html" class="button">Skoða spil</a>
+                  </div>
+                </div>
+              </section>
+
+              <section class="card">
+                <div class="content">
+                  <h3 class="title">Viðburðir</h3>
+                  <div class="text">
+                    <p>Við höldum reglulega viðburði.</p>
+                  </div>
+                  <div class="actions">
+                    <a class="button" href="./sidur/vidburdir.html">Skoðaðu viðburði</a> <a class="button"
+                      href="./sidur/skraning.html">Skráðu mig á viðburð</a>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+
+          <div class="cards">
+            <h2 class="title">Vinsælustu spilin</h2>
+            <div class="content">
+              <section class="card">
+                <div class="image"><img src="./myndir/brass.jpg" alt="Mynd af boxi spilsins Brass: Birmingham"></div>
+                <div class="content">
+                  <h3 class="title">Brass: Birmingham</h3>
+                  <div class="text">
+                    <p>Ný komið aftur! Klassískt spil sem fær 8,41 í einkunn hjá BoardGameGeek.
+                    </p>
+                  </div>
+                  <div class="actions">
+                    <a href="./sidur/spil.html" class="button">Skoða spil</a>
+
+                    <!-- Rétt leið til að útbúa form, þó ekkert virki... -->
+                    <form method="post" action=".">
+                      <input type="hidden" name="id" value="1">
+                      <button class="button">Setja í körfu</button>
+                    </form>
+                  </div>
+                </div>
+
+              </section>
+
+              <section class="card">
+                <div class="image"><img class="image" src="./myndir/pandemic.jpg"
+                    alt="Mynd af boxi spilsins Pandemic Legacy"></div>
+                <div class="content">
+                  <h3 class="title">Pandemic Legacy</h3>
+                  <div class="text">
+                    <p>Getið þið unnið saman til að stöðva heimsfaraldur? Spil sem fær 8,37 í einkunn hjá BoardGameGeek.
+                    </p>
+                  </div>
+                  <div class="actions">
+                    <a href="./sidur/spil.html" class="button">Skoða spil</a>
+
+                    <form method="post" action=".">
+                      <input type="hidden" name="id" value="1">
+                      <button class="button">Setja í körfu</button>
+                    </form>
+                  </div>
+                </div>
+
+              </section>
+            </div>
+          </div>
         </div>
       </main>
     </div>
