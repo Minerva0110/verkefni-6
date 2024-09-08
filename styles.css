@@ -221,7 +221,11 @@ main img {
 /** Fótur **/
 
 footer {
-  padding: var(--spacing);
+  display: flex;
+  justify-content: center;
+  gap: var(--spacing);
+
+  padding-top: var(--spacing);
   border-top: 4px solid var(--color-border-with-background);
   width: 100%;
 
@@ -230,10 +234,7 @@ footer {
 }
 
 footer > section {
-  display: inline-block;
-  vertical-align: top;
   max-width: var(--max-width-footer-section);
-  margin-right: calc(var(--spacing) * 2);
 }
 
 footer ul {
