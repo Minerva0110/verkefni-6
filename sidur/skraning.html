@@ -22,116 +22,118 @@
 
     <p class="sr-only"><a href="#efni">Beint í efni</a></p>
 
-    <nav>
-      <ul>
-        <li><a href="../index.html">Forsíða</a></li>
-        <li><a href="./spil.html">Spil</a></li>
-        <li><a href="./vidburdir.html">Viðburðir</a></li>
-        <li><strong>Skráning á viðburði</strong></li>
-      </ul>
-    </nav>
+    <div class="wrapper-content">
+      <nav class="wrapper-nav">
+        <ul>
+          <li><a href="../index.html">Forsíða</a></li>
+          <li><a href="./spil.html">Spil</a></li>
+          <li><a href="./vidburdir.html">Viðburðir</a></li>
+          <li><strong>Skráning á viðburði</strong></li>
+        </ul>
+      </nav>
 
-    <main id="efni">
-      <p>Skráðu þig á viðburði hjá okkur!</p>
+      <main id="efni" class="wrapper-main">
+        <p>Skráðu þig á viðburði hjá okkur!</p>
 
-      <form method="GET" action=".">
-        <fieldset>
-          <legend>Viðburður</legend>
-          <div>
-            <label for="event">Hvaða viðburð viltu koma á?</label>
-            <select id="event">
-              <option>Púslukvöld</option>
-              <option>Ticket to Ride</option>
-            </select>
-          </div>
-          <div>
-            <label for="when">Hvenær viltu koma?</label>
-            <input type="datetime-local" id="when" name="when">
-          </div>
-          <div>
-            <label for="time">Klukkan hvað?</label>
-            <select id="time">
-              <option>10:00–11:00</option>
-              <option>11:00–12:00</option>
-              <option>12:00–13:00</option>
-              <option>13:00–14:00</option>
-              <option>14:00–15:00</option>
-              <option>15:00–16:00</option>
-              <option>16:00–17:00</option>
-              <option>17:00–18:00</option>
-              <option>18:00–19:00</option>
-              <option>19:00–20:00</option>
-              <option>20:00–21:00</option>
-              <option>21:00–22:00</option>
-              <option>22:00–23:00</option>
-              <option>23:00–00:00</option>
-            </select>
-          </div>
-          <div>
-            <label for="size">Hve mörg?</label>
-            <select id="size">
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5</option>
-              <option>6</option>
-              <option>7</option>
-              <option>8</option>
-              <option>9</option>
-              <option>10</option>
-            </select>
-          </div>
-          <div>
-            <label for="special">Viltu taka eitthvað fram?</label>
-            <textarea id="special"></textarea>
-          </div>
-        </fieldset>
-        <fieldset>
-          <legend>Panta mat</legend>
-          <div>
-            <label for="food">Viltu mat?</label>
-            <select id="food">
-              <option>Pizzusneið og gos</option>
-              <option>Kaffi og kaka</option>
-              <option>Engan mat</option>
-            </select>
-          </div>
-          <div>
-            <label>
-              <input type="checkbox" name="allergy">Ofnæmi sem við ættum að vita af?</label>
-          </div>
-          <div>
-            <label for="special-food">Annað sem við eigum að vita?</label>
-            <textarea id="special-food"></textarea>
-          </div>
-        </fieldset>
-        <fieldset>
-          <legend>Þínar upplýsingar</legend>
-          <div>
-            <label for="name">Nafn</label>
-            <input id="name" type="text" required>
-          </div>
-          <div>
-            <label for="email">Netfang</label>
-            <input id="email" name="email" type="email" required placeholder="nafn@example.org">
-          </div>
-          <div>
-            <label for="phone">Sími</label>
-            <input id="phone" type="tel" required placeholder="345-6789">
-          </div>
-        </fieldset>
-        <fieldset>
-          <legend>Samþykkja og panta</legend>
-          <div>
-            <label>
-              <input type="checkbox" name="terms">Ég samþykki skilmála
-              Spilabúðarinnar</label>
-          </div>
-          <button>Panta</button>
-        </fieldset>
-      </form>
-    </main>
+        <form method="GET" action=".">
+          <fieldset>
+            <legend>Viðburður</legend>
+            <div>
+              <label for="event">Hvaða viðburð viltu koma á?</label>
+              <select id="event">
+                <option>Púslukvöld</option>
+                <option>Ticket to Ride</option>
+              </select>
+            </div>
+            <div>
+              <label for="when">Hvenær viltu koma?</label>
+              <input type="datetime-local" id="when" name="when">
+            </div>
+            <div>
+              <label for="time">Klukkan hvað?</label>
+              <select id="time">
+                <option>10:00–11:00</option>
+                <option>11:00–12:00</option>
+                <option>12:00–13:00</option>
+                <option>13:00–14:00</option>
+                <option>14:00–15:00</option>
+                <option>15:00–16:00</option>
+                <option>16:00–17:00</option>
+                <option>17:00–18:00</option>
+                <option>18:00–19:00</option>
+                <option>19:00–20:00</option>
+                <option>20:00–21:00</option>
+                <option>21:00–22:00</option>
+                <option>22:00–23:00</option>
+                <option>23:00–00:00</option>
+              </select>
+            </div>
+            <div>
+              <label for="size">Hve mörg?</label>
+              <select id="size">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+              </select>
+            </div>
+            <div>
+              <label for="special">Viltu taka eitthvað fram?</label>
+              <textarea id="special"></textarea>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Panta mat</legend>
+            <div>
+              <label for="food">Viltu mat?</label>
+              <select id="food">
+                <option>Pizzusneið og gos</option>
+                <option>Kaffi og kaka</option>
+                <option>Engan mat</option>
+              </select>
+            </div>
+            <div>
+              <label>
+                <input type="checkbox" name="allergy">Ofnæmi sem við ættum að vita af?</label>
+            </div>
+            <div>
+              <label for="special-food">Annað sem við eigum að vita?</label>
+              <textarea id="special-food"></textarea>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Þínar upplýsingar</legend>
+            <div>
+              <label for="name">Nafn</label>
+              <input id="name" type="text" required>
+            </div>
+            <div>
+              <label for="email">Netfang</label>
+              <input id="email" name="email" type="email" required placeholder="nafn@example.org">
+            </div>
+            <div>
+              <label for="phone">Sími</label>
+              <input id="phone" type="tel" required placeholder="345-6789">
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Samþykkja og panta</legend>
+            <div>
+              <label>
+                <input type="checkbox" name="terms">Ég samþykki skilmála
+                Spilabúðarinnar</label>
+            </div>
+            <button>Panta</button>
+          </fieldset>
+        </form>
+      </main>
+    </div>
 
     <footer>
       <section>
