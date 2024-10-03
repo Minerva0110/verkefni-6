@@ -1,0 +1,14 @@
+.card {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+
+    .content{
+        font-size: 1.1rem;
+    }
+
+    @media (min-width: 700px){
+        grid-column: span 5;
+    }
+}
